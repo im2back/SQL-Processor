@@ -7,7 +7,7 @@ Dividir um bloco de comandos em arquivos menores
 
 ![image](https://github.com/user-attachments/assets/7524da48-fbd5-42d9-a04c-669da5230fe2)
 
-##  2- Ajuste as constantes de 
+##  2- Ajuste as constantes 
 
 
 Nome e Número de linhas por aquivo :
