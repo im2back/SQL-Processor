@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/94bd2729-68a9-4f31-8515-9ccb2c2381af)# SQL-Processor
+
 Dividir um bloco de comandos em arquivos menores
 
 
