@@ -49,11 +49,11 @@ public class SqlController {
     // Divide as linhas em arquivos com no máximo 1000 linhas cada (incluindo "/")
     private List<String> splitSqlLines(List<String> lines) throws IOException {
         List<String> fileNames = new ArrayList<>();
-        int fileCount = 71;
-        int totalFiles = 140; // Calcula o número total de arquivos
+        int fileCount = 1;
+        int totalFiles = (int) Math.ceil((double) lines.size() / MAX_LINES_PER_FILE);  // Calcula o número total de arquivos pode colocar valor fixo também 
 
         // Diretório de saída (ajuste conforme necessário)
-        String outputDirectory = "C:/Users/Sobrevivente/Desktop/querys/";
+        String outputDirectory = "C:/Users/SEU-USUARIO/Desktop/NOME_DA_PASTA_DE_SAÍDA/";
         Files.createDirectories(Paths.get(outputDirectory));  // Cria o diretório se não existir
 
         for (int i = 0; i < lines.size(); i += MAX_LINES_PER_FILE) {
